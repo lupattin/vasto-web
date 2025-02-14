@@ -7,7 +7,7 @@ import Ours from "@/components/ours/ours";
 import ContactForm from "@/components/contactform/contactform";
 export default function Home() {
   return (
-    <div >
+    <>
       <Initial />
       <Welcomeinitial/>
       <Thesolution/>
