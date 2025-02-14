@@ -8,13 +8,13 @@ import ContactForm from "@/components/contactform/contactform";
 export default function Home() {
   return (
     <div >
-      {/* <Initial />
-      <Welcomeinitial/>*/}
+      <Initial />
+      <Welcomeinitial/>
       <Thesolution/>
       <Howitworks/>
       <WhyVasto />
       <Ours /> 
       <ContactForm />
-    </div>
+    </>
   );
 }

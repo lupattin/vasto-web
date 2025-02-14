@@ -18,7 +18,7 @@ export default function ContactForm() {
     };
 
     try {
-      const response = await fetch("http://localhost:3000/api/send", {
+      const response = await fetch("https://vasto-web.vercel.app//api/send", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
