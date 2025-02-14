@@ -14,7 +14,7 @@ export default function WhyVasto () {
             </div>
             <div>
                 <div className={styles.animatedBox}> <p>B2B platform supplying F&V to regional supermarkets</p> </div>
-                <div className={styles.animatedBox}>  <p>For Producers</p> </div>
+                <div className={styles.animatedBox}> <p>For Producers</p> </div>
                 <div className={styles.animatedBox}> <p>For Regional Supermarket</p> </div>
             </div>
         </div>

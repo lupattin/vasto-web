@@ -5,7 +5,7 @@ import { InstagramLogo, LinkedinLogo, Phone, MapPinLine} from '@phosphor-icons/r
 
 export default function Footer() {
   const text = "* VASTO QUALITY ";
-  const repetitions = 6;
+  const repetitions = 8;
   return (
     <div className={styles.container}>
       <div className={styles.containerText}>

@@ -1,5 +1,5 @@
 .container{
-    width: 100vw;
+    width: 100%;
     height: 480px;
     background-color: var(--vasto-white);
 }
@@ -7,7 +7,7 @@
 .containerText{
     /*le falta scroll infinito animacion*/
     margin: 0 15px;
-    padding: 30px 0;
+    padding: 30px 10px;
     width: 90vw;
     font-family: 'NeuroMedium';
     font-size: 16px;
@@ -15,9 +15,8 @@
     letter-spacing: 2px;
     text-align: center;
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap: 10%;
+    gap: 5%;
     white-space: nowrap;
     overflow: hidden;
 }

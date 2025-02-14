@@ -9,9 +9,8 @@ export function FormInputs({ text, placeholder, type, id }) {
           <option value="" disabled hidden className={styles.placeholderOption}>
             Select an option
           </option>
-          <option value="option1">Option 1</option>
-          <option value="option2">Option 2</option>
-          <option value="option3">Option 3</option>
+          <option value="option2">Inversor</option>
+          <option value="option3">Proveedor</option>
         </select>
       ) : (
         <input className={styles.input} type={type} placeholder={placeholder} id={id} />

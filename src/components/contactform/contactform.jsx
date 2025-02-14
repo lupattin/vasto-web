@@ -29,7 +29,6 @@ export default function ContactForm() {
 
       if (response.ok) {
         alert("Message sent successfully!");
-       
       } else {
         alert("Failed to send message.");
       }

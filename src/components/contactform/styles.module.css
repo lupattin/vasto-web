@@ -1,5 +1,5 @@
 .container{
-    width: 100vw;
+    width: 100%;
     height: 800px;
     background-color: var(--vasto-greenfield);
     display: flex;    
@@ -40,12 +40,15 @@
 }
 .containerButton{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
+    padding: 10px;
 }
 
 .containerInputsForm{
     display: grid;
-   grid-template-columns: repeat(2, 1fr); /* Dos columnas del mismo tamaño */
+   grid-template-columns: repeat(3, 1fr); /* Dos columnas del mismo tamaño */
    gap: 16px;/* Espacio entre los inputs */
    margin: auto; /* Centrar si es necesario */
 }
+
+

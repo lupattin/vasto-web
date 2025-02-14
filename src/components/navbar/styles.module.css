@@ -1,7 +1,14 @@
+/* .containerNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+} */
+
 .container{
-    width: 90vw;
+    width: 90%;
     height: 70px;
-    margin: 36px auto;
+    /* margin: 36px auto; */
     padding: 20px 48px;
     background-color: var(--vasto-greenfield);
     border: 2px solid var(--vasto-sandlight);

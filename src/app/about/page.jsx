@@ -5,14 +5,12 @@ import CardsComponent from '@/components/aboutcards/cards';
 export default function About() {
   return (
     <>
-      <div className={styles.container}>
-        <div className={styles.containerParagraph}>
-          <p className={styles.containerParagraphText}>Optimizing the fresh produce supply chain from sourcing to sales</p>
-        </div>
+      <div className={styles.containerParagraph}>
+          <p className={styles.paragraph}>Optimizing the fresh produce supply chain from sourcing to sales</p>
       </div>
       <div className={styles.containerTitle}>
             <h2>OUR TEAM</h2>
-        </div>
+      </div>
       <div>
             <CardsComponent />
       </div>
