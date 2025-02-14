@@ -20,12 +20,16 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 90px;
+    gap: 50px;
     flex-wrap: wrap;
 }
 
 .containerCard{
-    gap: 10px;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    border: 1px solid var(--vasto-greenfield);
+    border-radius: 10px;
 }
 
 .containerTitleCard{

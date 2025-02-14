@@ -1,14 +1,6 @@
-/* .containerNav{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: sticky;
-} */
-
 .container{
     width: 90%;
     height: 70px;
-    /* margin: 36px auto; */
     padding: 20px 48px;
     background-color: var(--vasto-greenfield);
     border: 2px solid var(--vasto-sandlight);
@@ -17,8 +9,8 @@
     justify-content: space-between;
     align-items: center;
     position: sticky;
-    top: 20px;
     z-index: 1;
+    margin: auto;
 }
 
 .containerLinks{
