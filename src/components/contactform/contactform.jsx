@@ -1,6 +1,6 @@
 "use client"
 import styles from './styles.module.css'
-import { FormInputs, FormTextArea } from '../UI/formInputs/forminputs';
+import { FormInputs, FormTextArea } from '@/UI/formInputs/forminputs';
 export default function ContactForm() {
   
 
