@@ -1,5 +1,5 @@
 import styles from './styles.module.css'
-export function FormInputs({ text, placeholder, type, id }) {
+function FormInputs({ text, placeholder, type, id }) {
   return (
     <div className={styles.container}>
       <label className={styles.label} htmlFor="">{text}</label>
@@ -20,7 +20,7 @@ export function FormInputs({ text, placeholder, type, id }) {
   );
 }
 
-export function FormTextArea({text, placeholder}) {
+function FormTextArea({text, placeholder}) {
     return (
       <div className={styles.bigContainer}>
         <label className={styles.bigLabel} htmlFor="">{text} </label>
@@ -29,3 +29,4 @@ export function FormTextArea({text, placeholder}) {
     );
   }
 
+export { FormInputs, FormTextArea }
