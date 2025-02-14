@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from 'next/image';
 export default function Navbar() {
     return (
-      <div className={styles.containerNav}>
+
       <div className={styles.container} >
         <div>
           <Image src={"/img/vastoRsandLight.png"} width={74} height={16} alt='logoVastoRegistrado'></Image>
@@ -13,7 +13,6 @@ export default function Navbar() {
           <Link href={'./'}>About Us</Link>
           <button className={styles.containerButton}>Get in touch</button>
         </div>
-      </div>
       </div>
     ); 
   }
