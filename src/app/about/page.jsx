@@ -11,9 +11,9 @@ export default function About() {
       <div className={styles.containerTitle}>
             <h2>OUR TEAM</h2>
       </div>
-      <div>
+
             <CardsComponent />
-      </div>
+      
       {/* <div className={styles.containerSubtitle}>
             <h2>Consultants</h2>
         </div> */}

@@ -37,7 +37,13 @@
     border-radius: 10px;
     margin-right: 10px;
     margin-top: 20px;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
 }
+.button:hover {
+    background-color: var(--vasto-sandlight); /* Nuevo color al hacer hover */
+    transform: scale(1); /* Efecto de crecimiento leve */
+    color: var(--vasto-greenfield);
+  }
 .containerButton{
     display: flex;
     flex-direction: row;

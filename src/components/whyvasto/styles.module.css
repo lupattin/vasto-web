@@ -39,3 +39,11 @@
     font-size: 20px;
     color: var(--vasto-greenfield);
 }
+
+.animatedBox.hovered {
+    background-color: var(--vasto-greenfield); /* Color al hacer hover */
+    color: var(--vasto-sand);
+    font-family: "MyriadPro", normal;
+  }
+
+  
