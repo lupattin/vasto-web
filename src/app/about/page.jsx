@@ -1,5 +1,4 @@
 import styles from './styles.module.css'
-import Image from 'next/image';
 import CardsComponent from '@/components/aboutcards/cards';
 
 export default function About() {
@@ -11,9 +10,7 @@ export default function About() {
       <div className={styles.containerTitle}>
             <h2>OUR TEAM</h2>
       </div>
-
-            <CardsComponent />
-      
+      <CardsComponent />
       {/* <div className={styles.containerSubtitle}>
             <h2>Consultants</h2>
         </div> */}
