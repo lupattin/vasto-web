@@ -9,3 +9,7 @@
     border: 2px solid var(--vasto-greenfield);
     border-radius: 10px;
 }
+
+.image{
+    border-radius: 100%;
+}

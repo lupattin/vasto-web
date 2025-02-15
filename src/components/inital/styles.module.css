@@ -25,3 +25,10 @@
     font-size: 20px;
     color: var(--vasto-sandlight);
 }
+
+@media (min-width: 350px) and (max-width: 480px){
+    .titletag{
+        font-size: 48px;
+    }
+
+}
