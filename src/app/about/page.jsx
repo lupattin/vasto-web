@@ -8,7 +8,7 @@ export default function About() {
           <p className={styles.paragraph}>Optimizing the fresh produce supply chain from sourcing to sales</p>
       </div>
       <div className={styles.containerTitle}>
-            <h2>OUR TEAM</h2>
+            <h2>FOUNDERS</h2>
       </div>
       <CardsComponent />
       {/* <div className={styles.containerSubtitle}>

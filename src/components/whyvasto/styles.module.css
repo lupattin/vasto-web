@@ -1,4 +1,4 @@
-.container{
+/* .container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,9 +41,7 @@
 }
 
 .animatedBox.hovered {
-    background-color: var(--vasto-greenfield); /* Color al hacer hover */
+    background-color: var(--vasto-greenfield);
     color: var(--vasto-sand);
     font-family: "MyriadPro", normal;
-  }
-
-  
+  } */

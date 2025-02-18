@@ -10,13 +10,13 @@
     padding: 30px 10px;
     width: 90vw;
     font-family: 'NeuroMedium';
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 800;
     letter-spacing: 2px;
     text-align: center;
     display: flex;
     align-items: center;
-    gap: 5%;
+    gap: 10%;
     white-space: nowrap;
     overflow: hidden;
 }

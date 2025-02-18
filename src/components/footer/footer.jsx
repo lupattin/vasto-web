@@ -4,7 +4,7 @@ import Link from "next/link";
 import { InstagramLogo, LinkedinLogo, Phone, MapPinLine} from '@phosphor-icons/react/dist/ssr';
 
 export default function Footer() {
-  const text = "* VASTO QUALITY ";
+  const text = "VASTO";
   const repetitions = 8;
   return (
     <div className={styles.container}>

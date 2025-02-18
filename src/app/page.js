@@ -12,7 +12,6 @@ export default function Home() {
       <Welcomeinitial/>
       <Thesolution/>
       <Howitworks/>
-      <WhyVasto />
       <Ours /> 
       <ContactForm />
     </div>
