@@ -7,32 +7,27 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
+    background-color: var(--vasto-greenfield);
     border: 2px solid var(--vasto-greenfield);
     border-radius: 10px;
 }
 
 .image{
     border-radius: 100%;
-    border: 3px solid var(--vasto-sand);
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    border: 2px solid var(--vasto-sand);
+    box-shadow: 1px 1px 2px var(--vasto-sand);
 }
 
 .cardTitle{
     font-family: 'DentonCondensed';
     font-size: 36px;
     padding: 10px;
-    color: var(--vasto-greenfield);
+    color: var(--vasto-sandlight);
 }
 
 .cardSubtitle{
-    font-family: 'NeuroMedium';
+    font-family: 'MyriadPro';
     font-size: 18px;
     font-weight: 800;
-    color: var(--vasto-brownland);
-}
-
-.cardItem{
-    font-family: 'MyriadPro';
-    font-size: 16px;
-    padding: 5px;
+    color: var(--vasto-sandlight);
 }

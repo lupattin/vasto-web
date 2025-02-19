@@ -20,7 +20,7 @@
     font-weight: bold;
     width: 80vw;
     border: transparent;
-    border-bottom: 0.5px dashed var(--vasto-tomatoe);
+    border-bottom: 0.5px dashed var(--vasto-sand);
     border-width: 5px;
 }
 .titleRight{
@@ -31,7 +31,7 @@
     width: 80vw;
     text-align: end;
     border: transparent;
-    border-bottom: 0.5px dashed var(--vasto-tomatoe);
+    border-bottom: 0.5px dashed var(--vasto-sand);
     border-width: 5px;
 }
 .pharagraphLeft{

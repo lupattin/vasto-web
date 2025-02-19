@@ -9,33 +9,43 @@
 
 .containerTitle {
     font-family: 'NeuroMedium';
-    font-size: 48px;
-    color: var(--vasto-greenfield);
-}
+    font-size: 52px;
+/*     font-weight: 800;
+ */    color: var(--vasto-greenfield);
+/*     opacity: 85%;
+ */}
 
 .containerCards{
     width: 100%;
-    margin: 90px;
+    margin: 75px 90px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 30px;
     flex-wrap: wrap;
 }
 
 .containerCard{
-    width: 300px;
+    width: 350px;
     height: 300px;
-    padding: 20px;
-    border: 1px solid var(--vasto-greenfield);
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border: 1px solid var(--vasto-sand);
     border-radius: 10px;
+    box-shadow: -1px 1px 1px var(--vasto-sand), 1px -1px 1px var(--vasto-sand) ;
 }
 
 .containerTitleCard{
     font-family: 'NeuroMedium';
     text-align: center;
-    font-size: 30px;
+    font-size: 28px;
+/*     text-decoration: underline var(--vasto-greenfield);*/
+    line-height: 32px;
 }
 
 .containerText{
@@ -46,5 +56,5 @@
 }
 
 .image{
-    margin: auto;
+    margin: 0 auto;
 }

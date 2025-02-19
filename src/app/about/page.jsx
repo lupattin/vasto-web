@@ -1,10 +1,12 @@
 import styles from './styles.module.css'
+import Image from 'next/image';
 import CardsComponent from '@/components/aboutcards/cards';
 
 export default function About() {
   return (
     <>
       <div className={styles.containerParagraph}>
+          <Image className={styles.image} src={"/img/vastoisologosand.png"} fill alt='isologo vasto' style={{zIndex: '-1'} }></Image>
           <p className={styles.paragraph}>Optimizing the fresh produce supply chain from sourcing to sales</p>
       </div>
       <div className={styles.containerTitle}>

@@ -8,9 +8,12 @@
 }
 
 .containerHero{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
     width: 90%;
     height: 600px;
-    gap: 50px;
+    margin-top: 10px;
 }
 
 .titletag{
