@@ -8,16 +8,15 @@
 }
 
 .containerTitle {
+    margin: 20px 0 0 0 ;
     font-family: 'NeuroMedium';
-    font-size: 52px;
-/*     font-weight: 800;
- */    color: var(--vasto-greenfield);
-/*     opacity: 85%;
- */}
+    font-size: 60px;
+    color: var(--vasto-greenfield);
+}
 
 .containerCards{
     width: 100%;
-    margin: 75px 90px;
+    margin: 50px 90px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -29,22 +28,23 @@
 .containerCard{
     width: 350px;
     height: 300px;
-    padding: 24px;
+    padding: 12px 24px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    gap: 12px;
-    border: 1px solid var(--vasto-sand);
-    border-radius: 10px;
+    align-items: start ;
+    gap: 18px;
+    /* background-color: var(--vasto-sandlight); */
+    border: 3px solid var(--vasto-greenfield);
+    border-radius: 50px;
     box-shadow: -1px 1px 1px var(--vasto-sand), 1px -1px 1px var(--vasto-sand) ;
 }
 
 .containerTitleCard{
     font-family: 'NeuroMedium';
-    text-align: center;
-    font-size: 28px;
-/*     text-decoration: underline var(--vasto-greenfield);*/
+    text-align: start;
+    font-size: 24px;
+    text-decoration: underline var(--vasto-sand);
     line-height: 32px;
 }
 
@@ -52,9 +52,10 @@
     font-family: 'MyriadPro';
     font-size: 18px;
     color: var(--vasto-brownland);
-    text-align: center;
+    text-align: start;
 }
 
 .image{
     margin: 0 auto;
+    opacity: 90%;
 }

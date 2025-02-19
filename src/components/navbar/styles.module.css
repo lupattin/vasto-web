@@ -5,6 +5,7 @@
     background-color: var(--vasto-greenfield);
     border: 2px solid var(--vasto-sandlight);
     border-radius: 20px;
+    box-shadow: 1px 1px 5px rgb(97, 97, 97);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,12 +26,13 @@
     font-size: 16px;
 }
 
-.containerButton{
+.button{
+    padding: 14px 16px;
     width: 153px;
     background-color: var(--vasto-sandlight);
     color: var(--vasto-greenfield);
-    padding: 14px 21px;
     border-radius: 15px;
+    box-shadow: 1px 1px 3px black;
     font-family: 'NeuroMedium';
 }
 

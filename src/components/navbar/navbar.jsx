@@ -29,7 +29,7 @@ export default function Navbar() {
         <div className={styles.containerLinks}>
           <Link href={'./'}>Home</Link>
           <Link href={'./about'}>About Us</Link>
-          <button className={styles.containerButton} onClick={handleGetInTouch}>
+          <button className={styles.button} onClick={handleGetInTouch}>
           Get in touch
         </button>
         </div>
