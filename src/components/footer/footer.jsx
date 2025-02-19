@@ -4,13 +4,16 @@ import Link from "next/link";
 import { InstagramLogo, LinkedinLogo, Phone, MapPinLine} from '@phosphor-icons/react/dist/ssr';
 
 export default function Footer() {
-  const text = "VASTO";
+  const text = "";
   const repetitions = 8;
   return (
     <div className={styles.container}>
       <div className={styles.containerText}>
       {Array(repetitions).fill(text).map((line, index) => (
-        <p key={index}>{line}</p>
+        <div className={styles.containerLogo}>
+          <p key={index}>{line}</p>
+          <Image key={1} src={"/img/logovastofootercaarousel.png"} width={65} height={50} alt='nuts picture'></Image>
+        </div>
       ))}
     </div>
     <div className={styles.containerLogoredes}>
