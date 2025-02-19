@@ -10,9 +10,9 @@ export default function Footer() {
     <div className={styles.container}>
       <div className={styles.containerText}>
       {Array(repetitions).fill(text).map((line, index) => (
-        <div className={styles.containerLogo}>
-          <p key={index}>{line}</p>
-          <Image key={1} src={"/img/logovastofootercaarousel.png"} width={65} height={50} alt='nuts picture'></Image>
+        <div key={index} className={styles.containerLogo}>
+          <p >{line}</p>
+          <Image src={"/img/logovastofootercaarousel.png"} width={65} height={50} alt='nuts picture'></Image>
         </div>
       ))}
     </div>
