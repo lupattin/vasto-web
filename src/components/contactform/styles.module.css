@@ -43,7 +43,7 @@
     background-color: var(--vasto-sandlight); /* Nuevo color al hacer hover */
     transform: scale(1); /* Efecto de crecimiento leve */
     color: var(--vasto-greenfield);
-  }
+}
 .containerButton{
     display: flex;
     flex-direction: row;
