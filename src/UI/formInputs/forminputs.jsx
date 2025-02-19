@@ -5,7 +5,7 @@ function FormInputs({ text, placeholder, type, id }) {
       <label className={styles.label} htmlFor="">{text}</label>
 
       {type === "dropdown" ? (
-        <select className={styles.input} placeholder={placeholder}>
+        <select className={styles.inputDropdown} placeholder={placeholder}>
           <option value="" disabled hidden className={styles.placeholderOption}>
             Select an option
           </option>

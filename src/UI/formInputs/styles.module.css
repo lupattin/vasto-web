@@ -16,6 +16,16 @@
     border: 2px solid var(--vasto-sandlight);
     background-color: var(--vasto-sandlight);
     opacity: 0.75;
+    padding: 14px;
+}
+.inputDropdown{
+    width: 100%;
+    height: 48px;
+    border-radius: 10px;
+    border: 2px solid var(--vasto-sandlight);
+    background-color: var(--vasto-sandlight);
+    opacity: 0.75;
+    padding: 0px 10px;
 }
 
 .input option {
@@ -46,4 +56,5 @@
     border: 2px solid var(--vasto-sandlight);
     background-color: var(--vasto-sandlight);
     opacity: 0.75;
+    padding: 15px;
 }
