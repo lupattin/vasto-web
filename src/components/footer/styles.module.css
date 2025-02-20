@@ -1,14 +1,28 @@
+@keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+
+  .marquee {
+    display: flex;
+    animation: marquee 25s linear infinite;
+    width: 200%; /* Se duplica el ancho */
+    gap: 40px;
+  }
+
 .container{
     width: 100%;
     height: 480px;
     background-color: var(--vasto-white);
 }
 
-.containerText{
-    /*le falta scroll infinito animacion*/
-    margin: 0 25px;
+.containerText {
     padding: 30px 10px;
-    width: 90vw;
+    width: 100%;
     font-family: 'NeuroMedium';
     font-size: 18px;
     font-weight: 800;
@@ -16,16 +30,15 @@
     text-align: center;
     display: flex;
     align-items: center;
-    gap: 10%;
     white-space: nowrap;
     overflow: hidden;
-}
+  }
 
 .containerLogo{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5px;
+    width: 400px;
 }   
 
 .containerLogoredes{

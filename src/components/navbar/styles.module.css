@@ -27,13 +27,55 @@
 }
 
 .button{
-    padding: 14px 16px;
+    padding: 12px 14px;
     width: 153px;
     background-color: var(--vasto-sandlight);
     color: var(--vasto-greenfield);
     border-radius: 15px;
     box-shadow: 1px 1px 3px black;
     font-family: 'NeuroMedium';
+
+    position: relative;
+    top: 0;
+    transition: all 200ms ease-in-out;
+}
+
+.button:hover{
+    top: 0.1em;
+    box-shadow: 0 0;
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+}
+.img{
+    cursor: pointer;
+}
+
+.link{
+    padding: 10px;
+    margin-right: 15px;
+    font-size: 17px;
+    font-weight: lighter;
+    text-decoration: none;
+    position: relative;
+    text-align: center;
+}
+
+.link::before {
+    content: "";
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #E0E0B9;
+    transition: 0.5s transform ease;
+    transform: scale3d(0,1,1);
+    background: #E0E0B9;
+    transform-origin: 0% 50%;
+}
+
+.link:hover::before {
+    transform: scale3d(1,1,1);
 }
 
 @media (min-width: 350px) and (max-width: 480px) {

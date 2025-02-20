@@ -24,11 +24,11 @@ export default function Navbar() {
 
       <div className={styles.container} >
         <div>
-          <Image className={styles.img} src={"/img/vastoRsandLight.png"} width={74} height={16} alt='logoVastoRegistrado'></Image>
+          <Image onClick={() => router.push("/")} className={styles.img} src={"/img/vastoRsandLight.png"} width={74} height={16} alt='logoVastoRegistrado'></Image>
         </div>
         <div className={styles.containerLinks}>
-          <Link href={'./'}>Home</Link>
-          <Link href={'./about'}>About Us</Link>
+          <Link className={styles.link} href={'./'}>Home</Link>
+          <Link className={styles.link} href={'./about'}>About Us</Link>
           <button className={styles.button} onClick={handleGetInTouch}>
           Get in touch
         </button>
