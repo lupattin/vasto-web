@@ -28,7 +28,7 @@ export default function Footer() {
       </div>
       
       <div className={styles.containerLogoredes}>
-        <Image src={"/img/footerLogo.png"} width={190} height={92} alt="Isologo Vasto Foods" />
+        <Image className={styles.image} src={"/img/footerLogo.png"} width={190} height={92} alt="Isologo Vasto Foods" />
         <p className={styles.containerBrandsMotto}>Cultivating Partnership, Harvesting Prosperity</p>
         <div>
           <div className={styles.contactDetails}><Phone size={32} /><p className={styles.contactText}>+528115167342</p></div>

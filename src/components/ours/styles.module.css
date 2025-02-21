@@ -49,3 +49,21 @@
     font-size: 25px;
     margin-top: 15px;
 }
+
+@media (min-width: 350px) and (max-width: 480px){
+    .textContainer{
+        padding: 80px 20px;
+    }
+    .titleLeft{
+        font-size: 30px;
+    }
+    .pharagraphLeft{
+        font-size: 20px;
+    }
+    .titleRight{
+        font-size: 30px;
+    }
+    .pharagraphRight{
+        font-size: 20px;
+    }
+}
