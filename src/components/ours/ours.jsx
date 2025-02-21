@@ -24,6 +24,6 @@ return (
             <div></div>
             <p className={styles.pharagraphRight}> Become the broadest and  most reliable supplier for  regional supermarkets,  spear-heading their  technological evolution. </p>
         </div>
-    </div>
+    </div> 
 );
 }
