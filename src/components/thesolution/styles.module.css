@@ -44,7 +44,7 @@
     font-family: 'NeuroMedium';
     text-align: start;
     font-size: 24px;
-    text-decoration: underline var(--vasto-sand);
+    text-decoration: underline 3px var(--vasto-sand);
     line-height: 32px;
 }
 
