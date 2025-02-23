@@ -58,4 +58,26 @@
    margin: auto; /* Centrar si es necesario */
 }
 
+@media (min-width: 350px) and (max-width: 480px) {
+    .container{
+        height: 900px;
+    }
+    .title{
+        font-size: 32px;
+    }
+    .pharagraph{
+        font-size: 14px;
+    }
+    .button{
+        font-size: 16px;
+        width: 150px;
+        height: 50px;
+        /* color: var(--vasto-sand); */
+    }
+    .containerButton{
+        align-items: center;
+        justify-content: center;
+    }
+}
+
 
