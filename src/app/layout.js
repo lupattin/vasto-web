@@ -10,11 +10,14 @@ export const metadata = {
   icons: {
     icon: "/favicon.ico", // Ruta del favicon en `public/`
   },
+  viewport: "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
 };
 
 export const viewport = {
   maximumScale: 1,
-  userScalable: "no"
+  userScalable: "no",
+  width: "device-width",
+  initialScale: 1
 }
 
 export default function RootLayout({ children }) {
