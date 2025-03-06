@@ -31,8 +31,8 @@
 
 @media (min-width: 350px) and (max-width: 480px){
     .titletag{
-        font-size: 55px;
-        line-height: 80px;
+        font-size: 48px;
+        line-height: 65px;
         padding-top: 0px;
         margin-top: 0px;
     }
@@ -43,9 +43,11 @@
     .containerHero{
         gap: 30px;
     }
-    
+    .image{
+        height: 80%;
+    }
     .container{
-        height: 600px;
-        padding: 100px 0;
+        height: 500px;
+        padding: 60px 0;
     }
 }

@@ -60,7 +60,10 @@
 
 @media (min-width: 350px) and (max-width: 480px) {
     .container{
-        height: 900px;
+        height: 750px;
+    }
+    .containerTitle{
+        margin-bottom: 35px;
     }
     .title{
         font-size: 32px;
@@ -77,6 +80,10 @@
     .containerButton{
         align-items: center;
         justify-content: center;
+    }
+    .containerInputsForm{
+        grid-template-columns: repeat(1, 1fr); /* Dos columnas del mismo tamaño */
+        gap: 10px;
     }
 }
 

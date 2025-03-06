@@ -97,6 +97,9 @@
   .containerLogoredes{
     gap: 5px;
   }
+  .marquee{
+    gap: 20px;
+  }
   .containerCopy{
     color: #757552;
     font-size: 14px;
