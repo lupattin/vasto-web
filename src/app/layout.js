@@ -2,6 +2,7 @@ import Navbar from "@/components/navbar/navbar";
 import Footer from "@/components/footer/footer";
 /* importar globals.css */
 import "./globals.css";
+import { use } from "react";
 
 export const metadata = {
   title: "Vasto",
@@ -10,6 +11,11 @@ export const metadata = {
     icon: "/favicon.ico", // Ruta del favicon en `public/`
   },
 };
+
+export const viewport = {
+  maximumScale: 1,
+  userScalable: "no"
+}
 
 export default function RootLayout({ children }) {
   return (

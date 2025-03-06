@@ -9,6 +9,7 @@ useEffect(() => {
         AOS.init({
               duration: 1000, // Duración de la animación
               once: false, // Para que solo ocurra una vez
+              
         });
     }, []);
 
